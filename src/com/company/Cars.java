@@ -6,11 +6,11 @@ public class Cars {
     String model;
     int year;
 
-    public Cars(String make, String model, int year){
+    public Cars(String maker, String modelType, int yearMade){
 
-        this.make = make;
-        this.model = model;
-        this.year = year;
+        make = maker;
+        model = modelType;
+        year = yearMade;
     }
     public String toString(){
         return "Cars maker: " + make + "\n" + "Cars model: " + model + "\n" + "Cars year: " + year;
