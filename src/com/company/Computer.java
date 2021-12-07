@@ -3,19 +3,19 @@ package com.company;
 public class Computer {
     String brand;
     String model;
-    String screenSize;
+    String screen;
     int year;
 
-    public Computer(String brand, String model, String screenSize, int year){
-        this.brand = brand;
-        this.model = model;
-        this.screenSize = screenSize;
-        this.year = year;
+    public Computer(String brandName, String modelType, String screenSize, int yearMade){
+        brand = brandName;
+        model = modelType;
+        screen = screenSize;
+        year = yearMade;
     }
     public String toString(){
         return "The Brand of the Computer is " + brand + "\n" +
                 "The Model is " + model + "\n" + "The Screen Size is " +
-                screenSize + "\n" + "The year is " + year;
+                screen + "\n" + "The year is " + year;
     }
 
     public static void main(String[] args){
