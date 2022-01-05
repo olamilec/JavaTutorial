@@ -28,5 +28,6 @@ public class PetDog {
         System.out.print("The Dog address is: ");
         petAddress("Dada Estate, Osogbo");
         petHobby(2, "Dog Treats", "Catching Ball");
+
     }
 }
