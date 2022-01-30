@@ -1,20 +1,21 @@
 package com.company;
 
 class testCase1 {
-    public static void main(String[] args) {
-        String s = "Hello world";
-        System.out.println(s);
-        System.out.println(addExact(11, 5));
-        System.out.println(incrementExact(5));
-    }
+    int num1 = 40;
+    int num2 = 30;
+    public static void main(String[] args){
+        testCase1 test = new testCase1();
+        test.test1();
+        test.test2();
 
-    static int addExact(int a, int b) {
-        return a - b;
     }
-
-    static int incrementExact(int a) {
-        a++;
-        return a;
+    public void test1(){
+        int sum = num1 + num2;
+        System.out.println(sum);
     }
+     public void test2(){
+        int sum = num1 - num2;
+        System.out.println(sum);
+     }
 }
 
