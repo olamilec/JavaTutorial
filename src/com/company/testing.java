@@ -42,8 +42,8 @@ public class testing {
     }
 
     public  static void main(String[] args) {
-        //currentTime();
-        //printParity(87);
-        //printLogarithm(0.1);
+        currentTime();
+        printParity(87);
+        printLogarithm(0.1);
     }
 }
